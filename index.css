@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  background: #F2F2F2;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+#navbar{
+  background-color: white;
+  box-shadow: 0 0 10px #cccccc;
+  z-index: 2;
+  position: relative;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header{
+  font-weight: 600;
+  font-size: 20px;
+}
+input{
+  padding: 10px;
+  margin:10px;
+  box-sizing: border-box;
+  width: 300px;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+input::placeholder{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #000;
+}
+#search{
+  margin: 10 auto;
+}
+button{
+  border:none;
+  border-radius: 0px;
+  padding: 5px;
+  margin: 5px;
+  font: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+#post{
+  width: 300px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  height: 30px;
+  margin: 0 auto 10px; 
+  
+}
+#searchby{
+  margin: 0 auto 10px;
+}
+#type{
+  width: 100px;
+  background-color: black;
+  color: white;
+  height: 30px;
+  margin: 5px;
+}
+#property{
+  margin:5px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#loginbtn{
+  background-color: transparent;
+  border: 1px solid gray;
+  color: black;
+}
+#update{
+  background-color: transparent;
+  border: 1px solid gray;
+  color: black;
+}
+#sold{
+  background-color: transparent;
+  border: 1px solid gray;
+  color: black;
+}
+#delete{
+  background-color: transparent;
+  border: 1px solid gray;
+  color: black;
+}
+#login{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px #cccccc;
+  z-index: 1.1;
+}
+#container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  min-height:100vh;
+  padding: 10px;
+}
